@@ -1,0 +1,126 @@
+:root {
+  font: 16px/145% system-ui, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e4e7;
+  padding: 16px 0;
+}
+
+header h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.7;
+}
+
+nav a.router-link-active {
+  opacity: 1;
+  font-weight: 600;
+}
+
+main {
+  padding-top: 24px;
+}
+
+.card-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.card-form input {
+  padding: 8px;
+  flex: 1;
+}
+
+button {
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #e5e4e7;
+}
+
+.error {
+  color: #c0392b;
+  margin-bottom: 12px;
+}
+
+.granted {
+  color: #1e8e3e;
+  font-weight: 600;
+}
+
+.denied {
+  color: #c0392b;
+  font-weight: 600;
+}
+
+.login {
+  max-width: 320px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login input,
+.login button {
+  padding: 10px;
+}
+
+.unlock {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.unlock-btn {
+  font-size: 20px;
+  padding: 24px 48px;
+  border-radius: 12px;
+  background: #1e8e3e;
+  color: #fff;
+  border: none;
+  margin: 20px 0;
+}
+
+.unlock-btn:disabled {
+  opacity: 0.6;
+}
