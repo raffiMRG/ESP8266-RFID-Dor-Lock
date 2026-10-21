@@ -7,3 +7,8 @@ frontend/dist
 backend/rfid-dor-lock-backend
 
 z_tmp
+
+# PlatformIO auto-generated, berisi path lokal
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
