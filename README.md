@@ -50,8 +50,8 @@ cp .env.example .env   # lalu sesuaikan ADMIN_USERNAME/PASSWORD, JWT_SECRET, BAC
 docker compose up -d --build
 ```
 
-- Dashboard: `http://<IP>:5174`
-- API backend: `http://<IP>:8080`
+- Dashboard: `http://<IP>:<FRONTEND_PORT>` (default 5555)
+- API backend: `http://<IP>:<BACKEND_PORT>` (default 8765)
 
 `BACKEND_PUBLIC_URL` di `.env` harus IP LAN komputer (bukan `localhost`) supaya dashboard bisa dibuka dari device lain (HP, dll) dan supaya ESP8266 bisa menjangkau backend.
 
