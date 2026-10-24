@@ -33,7 +33,7 @@
 // ---- Backend API ----
 // Otorisasi & pencatatan log akses dilakukan di backend (lihat /backend),
 // bukan lagi hardcoded di firmware. Kelola kartu lewat dashboard frontend.
-#define API_BASE_URL "http://192.168.1.119:8080" // IP WiFi "Trojan.sh" komputer yang menjalankan docker compose
+#define API_BASE_URL "http://192.168.1.123:8765" // IP server yang menjalankan docker compose (BACKEND_PORT di .env)
 #define API_ACCESS_PATH "/api/v1/access"
 #define API_UNLOCK_POLL_PATH "/api/v1/unlock/poll"
 #define HTTP_TIMEOUT_MS 5000
